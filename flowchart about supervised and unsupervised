@@ -1,1 +1,67 @@
 https://www.geeksforgeeks.org/supervised-unsupervised-learning/
+
+
+Types of Supervised Learning
+-----------------------------
+Supervised learning is classified into two categories of algorithms: 
+
+Regression: A regression problem is when the output variable is a real value, such as “dollars” or “weight”.
+Classification: A classification problem is when the output variable is a category, such as “Red” or “blue” , “disease” or “no disease”.
+
+1- Regression
+
+
+Linear Regression
+Polynomial Regression
+Support Vector Machine Regression
+Decision Tree Regression
+Random Forest Regression
+
+2- Classification
+
+Logistic Regression
+Support Vector Machines
+Decision Trees
+Random Forests
+Naive Baye
+
+----------------------------------------------------------------------
+For Regression
+
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+Mean Absolute Error (MAE)
+R-squared (Coefficient of Determination
+
+For Classification
+Accuracy
+Precision
+Recall
+F1 score
+Confusion matrix
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Types of Unsupervised Learning
+--------------------------------
+Clustering:
+Association
+
+Clustering Types:-
+
+Hierarchical clustering
+K-means clustering
+Principal Component Analysis
+Singular Value Decomposition
+Independent Component Analysis
+Gaussian Mixture Models (GMMs)
+Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+
+
+Association rule learning
+
+Apriori Algorithm
+Eclat Algorithm
+FP-Growth Algorithm
+
+
