@@ -1,0 +1,189 @@
+https://www.kdnuggets.com/2022/12/complete-machine-learning-study-roadmap.htmlKDnuggets logo
+
+
+
+1. Prerequisite
+ 
+
+In order for you to understand the concept of Machine Learning and everything about it - you need to know the fundamentals in and out. This includes the theories, concepts, methods, and algorithms behind it - why they do what they do and how they all act as a building block to Machine Learning. These prerequisites are surrounding analytical work, which helps you further down the line as a Machine Learning Engineer: 
+
+Standard Deviation
+Linear Algebra
+Statistics
+Probability
+Here are some resources that can help you get a more in-depth understanding:
+
+Mathematics for Machine Learning - Book
+Linear Algebra by Khan Academy - YouTube
+Statistics and Probability by Khan Academy - YouTube
+Mathematical Foundations of Machine Learning - Udemy
+ 
+
+2. Stages of Machine Learning
+ 
+
+Machine Learning is made up of the following stages:
+
+ 
+
+1. Research/Gathering Data
+ 
+
+During this stage, you will gain better knowledge of the problem or task at hand from a business perspective. This will then help you gather the correct data to input into your model. The quality and quantity of your data will determine how effectively your predictive produces trustworthy outputs.
+
+ 
+
+2. Data Preparation
+ 
+
+Preparing data takes up a lot of time, because data is never in the format we need it at. This will include de-duping, normalization, error correction and further areas of preparation such as feature engineering.
+
+ 
+
+3. Building your Model
+ 
+
+Depending on the task at hand, you will choose the correct model to help solve your problem. The next stage in this roadmap process goes through the different Machine Learning algorithms you will typically come across. 
+
+ 
+
+4. Train and test your model
+ 
+
+This stage is testing your model with the data you collected and prepared. The training dataset will be used to improve the model’s ability to make predictions. The test dataset is a subset of the training dataset, and provides us with an unbiased evaluation of the final model.
+
+ 
+
+5. Model Optimization and Evaluation
+ 
+
+Model optimization is the process of training the model iteratively, leading to a maximum and minimum function evaluation. Further evaluation includes testing the model using data that has not been used during the training phase to see the performance of the model against data it has not seen before.
+
+ 
+
+6. Experiment tracking
+ 
+
+In order to get to a point where your model is performing very well, you would have gone through a lot of tuning. All these components that have been tuned, from the model to metrics will need to be tracked to keep the project organized and provide easy access to the history of the model. 
+
+ 
+
+7. Model Deployment
+ 
+
+This is the last stage of the machine learning process. The point in which you put your machine learning model into production, so that it can be used to make business decisions based on data.
+
+If you would like to gain a more in-depth understanding of the machine learning process, have a look at these resources:
+
+Approaching (Almost) Any Machine Learning Problem - Book
+The 7 steps of machine learning - YouTube
+Frameworks for Approaching the Machine Learning Process - Blog
+What Does it Mean to Deploy a Machine Learning Model? - Blog
+ 
+
+3. Machine Learning Algorithms
+ 
+
+Once you have a good understanding of the foundational math, you will then be able to whizz through understanding the machine learning algorithms - as it’s all based on Maths. 
+
+As a Machine Learning engineer, you will always work with algorithms - they are the instructions to tell a computer what to do. Therefore, you need to understand those instructions. 
+
+There are 4 different types of machine learning algorithms:
+
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Reinforcement learning
+The type of machine learning algorithms that you will frequently work with and are very popular are:
+
+Linear Regression
+Logistic Regression
+Decision Trees
+Random forest
+Support Vector Machines (SVM’s)
+Naive Bayes
+KNN classification
+K-Means
+Artificial neural networks (ANNs)
+Recurrent neural networks (RNNs)
+Have a read of this article: Machine Learning Algorithms Explained in Less Than 1 Minute Each.
+
+If you’re looking for a more in-depth explanation, have a read of this: Popular Machine Learning Algorithms
+
+Here are some more resources for you to check out:
+
+Machine Learning Algorithms by Simplilearn - YouTube
+Understanding Machine Learning: From Theory to Algorithms By Shai Shalev-Shwartz, ?Shai Ben-David - Book
+During this phase, it is also important to learn about the basis of the machine learning algorithms. This relates to the task at hand - is it a classification task, and if so, which algorithm would be best? Is it supervised or unsupervised learning? Through this, you will see the connections between the fundamentals and machine learning algorithms. 
+
+ 
+
+4. The Libraries
+ 
+
+As a Machine Learning engineer, you will spend a lot of your time building algorithms and applications. Therefore, you need to understand the libraries that help build these. Machine Learning libraries are a collection of functions that have been created to help develop machine learning applications - through their prepackaged functions. 
+
+Here is a list of the most well-known and used libraries: 
+
+Pandas - Managing tabular data
+NumPy - Scientific computation
+Matplotlib - Data visualization
+Scikit-Learn - Data preprocessing and modeling
+SciPy - Scientific computation
+NLTK - Text processing
+TensorFlow - Deep Learning
+Keras - Deep Learning
+PyTorch - Deep Learning
+HuggingFace - Tools to build, train and deploy ML models
+The best way to learn about these libraries is through their User Guides and Documentation, which have all been linked above. 
+
+ 
+
+5. Projects
+ 
+
+So you’ve mastered the fundamentals, machine learning algorithms, and libraries - the next step is to take all that knowledge and skill and apply it to real-world cases. This not only tests your skills and presents you with your strengths and weaknesses in the field. But it also helps you add to your portfolio - which will help you in the next stage!
+
+I came across Thecleverprogrammer, and he has a list of different types of Machine Learning projects, for beginners and intermediate learners. It is good to approach the challenge yourself and then reflect back on how he chose to handle the problem or task at hand.
+
+Here is a list of Machine Learning projects for beginners
+
+MovieLens
+Online Payments Fraud Detection
+Walmart Sales Forecasting
+Ukraine vs Russia Twitter Sentiment Analysis
+Zillow House Price Prediction
+Stock Price Prediction
+Wine Quality
+Breast Cancer Survival Prediction
+Iris Classification
+Covid-19 Deaths Prediction
+Twitter Sentiment Analysis
+Loan Prediction Dataset
+Titanic Survival Dataset
+If you are ready to move onto something a bit more challenging, have a look at these projects:
+
+Amazon Product Reviews Sentiment Analysis
+Image Cartoonifier Project
+End-to-End Machine Learning Model
+Bitcoin Price Predictor Dataset
+Music Genre Classification Project
+Uber Data Analysis Dataset
+Handwritten Character Recognition Project
+Spotify Recommendation System
+Netflix Data Analysis
+Credit Card Fraud Detection Dataset
+Sentiment Analysis Dataset
+FastAI Model
+Speech Emotion Recognition Dataset
+
+ 
+
+
+
+
+
+© 2024 Guiding Tech Media   |   About   |   Contact   |   Privacy Policy   |   Terms of Service
+ 
+
+A RAPTIVE PARTNER SITE
