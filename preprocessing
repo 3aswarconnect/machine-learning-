@@ -1,0 +1,4 @@
+#balanced or imbalanced
+# Count the occurrences of each class
+
+class_counts = df['target'].value_counts()
