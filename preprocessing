@@ -7,3 +7,26 @@ class_counts = df['target'].value_counts()
 missing_values = data.isnull().sum()
 data['ph'].fillna(data['ph'].mean(), inplace=True)
 df=df.fillna(df.mean())
+
+##categorical to same
+df_encoded = pd.get_dummies(df, columns=['String1', 'String2'])
+
+##scaling 
+
+from sklearn.preprocessing import MinMaxScaler, StandardScaler, RobustScaler
+data = {
+    'Numeric1': [10, 20, 30, 40, 50],
+    'Numeric2': [1.5, 2.5, 3.5, 4.5, 100]
+}
+
+df = pd.DataFrame(data)
+scaler_min_max = MinMaxScaler()
+df_min_max_scaled = scaler_min_max.fit_transform(df)
+
+
+scaler_standard = StandardScaler()
+df_standard_scaled = scaler_standard.fit_transform(df)
+
+
+scaler_robust = RobustScaler()
+df_robust_scaled = scaler_robust.fit_transform(df)
