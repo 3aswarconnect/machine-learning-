@@ -2,3 +2,8 @@
 # Count the occurrences of each class
 
 class_counts = df['target'].value_counts()
+
+ #missing values 
+missing_values = data.isnull().sum()
+data['ph'].fillna(data['ph'].mean(), inplace=True)
+df=df.fillna(df.mean())
