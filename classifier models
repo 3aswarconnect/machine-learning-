@@ -1,0 +1,17 @@
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.svm import SVC
+
+# Create objects of classification algorithms with default hyper-parameters
+
+ModelLR = LogisticRegression()
+ModelDC = DecisionTreeClassifier()
+ModelRF = RandomForestClassifier()
+ModelET = ExtraTreesClassifier()
+ModelKNN = KNeighborsClassifier(n_neighbors=1)
+ModelGNB = GaussianNB()
+ModelSVM = SVC(kernel='linear', random_state = 42, class_weight='balanced', probability=True)
