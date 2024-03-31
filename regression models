@@ -1,0 +1,17 @@
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import ExtraTreesRegressor
+#from sklearn.neighbors import KNeighborsRegressor
+#from sklearn.linear_model import BayesianRidge
+#from sklearn.svm import SVR
+
+# Create objects of Regression / Regressor models with default hyper-parameters
+
+ModelMLR = LinearRegression()
+ModelDCR = DecisionTreeRegressor()
+ModelRFR = RandomForestRegressor()
+ModelETR = ExtraTreesRegressor()
+#ModelKNN = KNeighborsRegressor(n_neighbors=5)
+#ModelBRR = BayesianRidge()
+#ModelSVR = SVR()
